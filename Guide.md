@@ -28,4 +28,13 @@ The above two lines produce the following two plots:
 
 ![default plots](/images/default_plot.png)
 
+We are implicitly using the `percentiles` variable here and so 
+
+```
+my_radar.plot(percentiles = [0.5,0.1,0.8,0.3,1])
+```
+is equivalent to the first plot.
+
+To plot values that do not lie in the range 0,1 (and the change the axis values accordingly) we instead use the `values` parameter. 
+
 
