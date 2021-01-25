@@ -38,7 +38,9 @@ is equivalent to the first plot.
 To plot values that do not lie in the range 0,1 (and the change the axis values accordingly) we instead use the `values` parameter. We then need to define `ranges` for our data. An example shows how to do this:
 
 ```
-radar.plot(values = [5,5,5,5,5,5], ranges = [[0,10],[0,10],[0,10],[0,10],[-10,10],[0,100]])
+radar.plot(values = [5,5,5,5,5,5], ranges = [[0,5],[0,10],[5,0],[0,20],[-10,10],[0,100]])
 ```
+
+![values plot](/images/2_values.png)
 
 
