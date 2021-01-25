@@ -19,10 +19,13 @@ my_radar.plot([0.5,0.1,0.8,0.3,1])
 ```
 This produces:
 
-![GitHub Logo](/images/image.png)
+![GitHub Logo](/images/default_plot.png)
 
 A plot of two (or more) datasets can be overlayed by providing both in a list (note the extra square brackets). Note these must be of the same length.
 
 ```
 my_radar.plot([[0.5,0.1,0.8,0.3,1],[0.3,0.7,0.3,0.2,0.1]])
 ```
+
+
+![GitHub Logo](/images/default_plot_2.png)
