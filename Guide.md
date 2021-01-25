@@ -17,9 +17,6 @@ We can then plot some data (in percentile format for now, i.e. values between 0 
 ```
 my_radar.plot([0.5,0.1,0.8,0.3,1])
 ```
-This produces:
-
-![GitHub Logo](/images/default_plot.png)
 
 A plot of two (or more) datasets can be overlayed by providing both in a list (note the extra square brackets). Note these must be of the same length.
 
@@ -27,5 +24,23 @@ A plot of two (or more) datasets can be overlayed by providing both in a list (n
 my_radar.plot([[0.5,0.1,0.8,0.3,1],[0.3,0.7,0.3,0.2,0.1]])
 ```
 
+The above two lines produce the following two plots:
 
-![GitHub Logo](/images/default_plot_2.png)
+![default plots](/images/default_plot.png)
+
+We are implicitly using the `percentiles` variable here and so 
+
+```
+my_radar.plot(percentiles = [0.5,0.1,0.8,0.3,1])
+```
+is equivalent to the first plot.
+
+To plot values that do not lie in the range 0,1 (and the change the axis values accordingly) we instead use the `values` parameter. We then need to define `ranges` for our data. An example shows how to do this:
+
+```
+radar.plot(values = [5,5,5,5,5,5], ranges = [[0,5],[0,10],[5,0],[0,20],[-10,10],[0,100]])
+```
+
+![values plot](/images/2_values.png)
+
+
