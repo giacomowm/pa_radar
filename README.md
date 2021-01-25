@@ -2,4 +2,4 @@
 Proportional Area Radar Charts
 
 
-More details in [Guide](docs/Guide.md)
+More details in the [Guide](Guide.md)
