@@ -1,4 +1,4 @@
-# Proportional Area Radar Charts
+# Proportional Area Radar Chart Use Guide
 The file `pa_radar` to plot radar charts whose enclosed area is proportional to the sum (or average) of the values (when normalised).
 
 ## Simple First Use
