@@ -17,9 +17,6 @@ We can then plot some data (in percentile format for now, i.e. values between 0 
 ```
 my_radar.plot([0.5,0.1,0.8,0.3,1])
 ```
-This produces:
-
-![GitHub Logo](/images/default_plot.png)
 
 A plot of two (or more) datasets can be overlayed by providing both in a list (note the extra square brackets). Note these must be of the same length.
 
@@ -27,5 +24,8 @@ A plot of two (or more) datasets can be overlayed by providing both in a list (n
 my_radar.plot([[0.5,0.1,0.8,0.3,1],[0.3,0.7,0.3,0.2,0.1]])
 ```
 
+The above two lines produce the following two plots:
 
-![GitHub Logo](/images/default_plot_2.png)
+![default plots](/images/default_plot.png)
+
+
