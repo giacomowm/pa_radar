@@ -5,4 +5,4 @@ For an introduction and explaner see  [giacomowm.github.io/pa_radar_blog](https:
 
 Details on usage are in the document [Guide](Guide.md)
 
-Questions and enquiries: giacomowm.github.io/contact
+Questions and enquiries: [giacomowm.github.io/contact](https://giacomowm.github.io/contact)
